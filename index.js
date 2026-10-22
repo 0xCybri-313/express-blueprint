@@ -28,11 +28,12 @@ app.get("/", (req, res) => {
 
 app.get("/ig/:username", (req, res) => {
   let { username } = req.params;
+  const followers = ["Tony", "Steve", "Bruce", "Banner"];
 
   if (!username) {
     res.send("<h1>No user found</h1>");
   } else {
-    res.render("insta.ejs", { username });
+    res.render("insta.ejs", { username, followers });
   }
 });
 
