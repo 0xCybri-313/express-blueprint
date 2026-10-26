@@ -6,17 +6,28 @@
     <title>Insta</title>
   </head>
   <body>
-    <h3>This page belongs to: @<%= username %></h3>
+    <h3>This page belongs to: @<%= userData.username %></h3>
     <button>Follow</button>
     <button>Message</button>
 
-    <h3>Follower:</h3>
-    <ul>
-        <% for (let name of followers) { %>
-            
-           <li><%= name %></li>
-            
-       <%   } %>
-    </ul>
+    <p>
+      Followers: <%= userData.followers %> &nbsp;| &nbsp;Followings: <%=
+      userData.following %>
+    </p>
+    <hr />
+
+    <!-- Posts will be displayed here -->
+
+    <% for (const post of userData.posts) { %>
+      <div>
+        <h4><%= post.title %></h4>
+        <img src="<%= post.image %>" alt="<%= post.title %>" width="512px" />
+        <p>Likes: <%= post.likes %> &nbsp;| &nbsp;Comments: <%= post.comments %></p>
+      </div>
+      <hr />
+
+      
+    <% } %>
+
   </body>
 </html>

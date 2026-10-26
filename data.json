@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "username": "horse",
+    "name": "Horse",
+    "profileImage": "https://images.unsplash.com/photo-1534307675505-8e1c7c0e3a3c",
+    "followers": 12500,
+    "following": 340,
+    "posts": [
+      {
+        "id": 101,
+        "image": "https://images.unsplash.com/photo-1553284965-83fd3e82fa5a",
+        "likes": 1250,
+        "comments": 86
+      },
+      {
+        "id": 102,
+        "image": "https://images.unsplash.com/photo-1534307675505-8e1c7c0e3a3c",
+        "likes": 980,
+        "comments": 54
+      },
+      {
+        "id": 103,
+        "image": "https://images.unsplash.com/photo-1511192336575-5a79af67a629",
+        "likes": 2100,
+        "comments": 132
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "username": "dog",
+    "name": "Dog",
+    "profileImage": "https://images.unsplash.com/photo-1552053831-71594a27632d",
+    "followers": 25000,
+    "following": 520,
+    "posts": [
+      {
+        "id": 201,
+        "image": "https://images.unsplash.com/photo-1552053831-71594a27632d",
+        "likes": 3200,
+        "comments": 210
+      },
+      {
+        "id": 202,
+        "image": "https://images.unsplash.com/photo-1543466835-00a7907e9de1",
+        "likes": 2750,
+        "comments": 165
+      },
+      {
+        "id": 203,
+        "image": "https://images.unsplash.com/photo-1517849845537-4d257902454a",
+        "likes": 4100,
+        "comments": 305
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "username": "cat",
+    "name": "Cat",
+    "profileImage": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba",
+    "followers": 18500,
+    "following": 290,
+    "posts": [
+      {
+        "id": 301,
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba",
+        "likes": 2200,
+        "comments": 145
+      },
+      {
+        "id": 302,
+        "image": "https://images.unsplash.com/photo-1573865526739-10659fec78a5",
+        "likes": 1800,
+        "comments": 98
+      },
+      {
+        "id": 303,
+        "image": "https://images.unsplash.com/photo-1495360010541-f48722b34f7d",
+        "likes": 2950,
+        "comments": 187
+      }
+    ]
+  }
+]
